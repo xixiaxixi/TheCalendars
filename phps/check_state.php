@@ -31,7 +31,7 @@ header('Content-type: text/json');
 if (isset($_POST['username'])) {
     $redis = new Redis();
     if ($redis->connect('120.79.175.123', 6379)) {
-        $redis->auth('cc$3377');
+        $redis->auth('******');
         try {
             $state = $redis->hGet($_POST['username'], 'state');
             if ($state == "") {
