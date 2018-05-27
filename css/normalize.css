@@ -1,0 +1,110 @@
+html
+{
+    font-family: "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei", sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+canvas
+{
+    display: inline-block;
+}
+
+body
+{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.25;
+    position: absolute;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+button, input, textarea
+{
+    color: white;
+    font-family: "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei", sans-serif;
+    outline: none;
+    border: none;
+    margin: 0;
+}
+
+input[type="text"], input[type="password"]
+{
+    color: white;
+    background: none;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"],a[type="button"]
+{
+    color: white;
+    -webkit-appearance: button;
+    cursor: pointer; /*设置鼠标（手指）*/
+    /*background: hsla(120,100%,75%,0.5);*/
+    background: #2a85f0;
+
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,a[type="button"]:hover
+{
+    /*background: hsla(120,100%,45%,0.5);*/
+    background: #2f94ff;
+}
+
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active,a[type="button"]:active
+{
+    /*background: hsla(120,100%,15%,0.5);*/
+    background: #0070aa;
+}
+
+button[disabled], input[disabled]
+{
+    color: #959595;
+    background: #004f7a;
+    cursor: default; /*设置鼠标（箭头）*/
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration
+{
+    -webkit-appearance: none;
+}
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill
+{
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner
+{
+    border: 0;
+    padding: 0;
+}
+
+/*解决Firefox浏览器点击后出现边框的问题*/
+
+.MainPage
+{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center top;
+    z-index: 1;
+    background-image: url('../img/background.jpg');
+}
+
+.text_part
+{
+    background: rgba(255, 255, 255, 0.2);
+    border: rgba(255, 255, 255, 0.2) 2px solid;
+}

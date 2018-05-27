@@ -1,0 +1,174 @@
+/* Header */
+
+.MainPage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -ms-filter: blur(20px);
+    -o-filter: blur(20px);
+    filter: blur(20px);
+    z-index: -3;
+    margin: -30px;
+    background-image: url('../../img/background.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+.MainPage
+{
+
+}
+
+.main_box
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+.swiper-container
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.sub-swiper-container
+{
+    width: 100%;
+    height: 100%;
+}
+
+.main-swiper.swiper-slide
+{
+    width: 100vw;
+    min-width: 200px;
+    max-width: 400px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.sub-swiper.swiper-slide
+{
+    font-size: 18px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.proj-display
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.proj-container
+{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.proj-name
+{
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    background: rgba(255,255,255,0.333);
+    border-radius: 10px;
+}
+
+.button-set
+{
+    display: inline;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.opera-button
+{
+    font-size: 18px;
+    text-align: center;
+    margin: 5px;
+    display: inline;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.delete-button
+{
+    background: #CC3300;
+}
+
+.delete-button:hover
+{
+    background: rgb(187, 0, 0);
+}
+
+.head
+{
+    height: 24px;
+    left: 0;
+    width: 100%;
+    font-size: 24px;
+    text-align: left;
+}
+
+.sub-title
+{
+    width: 100%;
+    font-size: 33px;
+    text-align: center;
+    display: inline;
+    line-height: 12px;
+    right: 0;
+}
+
+.add-icon
+{
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background: rgba(0, 150, 230, 0.7);
+    border-radius: 24px;
+}
+

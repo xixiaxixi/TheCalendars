@@ -1,0 +1,81 @@
+/* Header */
+.main_box
+{
+    width: 330px;
+    height: 500px;
+    padding: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -250px; /*定位到中央并且能随窗口大小上下移动*/
+}
+
+.title
+{
+    height: 20px;
+    padding: 0 0 35px 0; /*内边距*/
+    margin: 1.2em 0; /*外边距*/
+
+    font-size: 20px; /*字体大小*/
+    font-weight: normal; /*字体粗细*/
+    text-align: center;
+}
+
+.form_element
+{
+    height: 50px;
+    width: 330px;
+    margin-bottom: 30px;
+    border-radius: 50px; /*圆角*/
+}
+
+.button_part
+{
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.small_button
+{
+    font-size: 18px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.text_area
+{
+    width: 240px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 46px;
+    position: relative;
+    bottom: 19px;
+}
+
+.text_label
+{
+    width: 240px;
+    height: 50px;
+    font-size: 16px;
+
+    line-height: 46px;
+    position: absolute;
+    right: 100px;
+}
+
+.icon
+{
+    width: 24px;
+    height: 24px;
+    margin: 13px 13px;
+}
+
+.check_icon
+{
+    visibility: hidden;
+    position: absolute;
+    right: 35px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TC-PersonalInfo</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <!--必要样式-->
+    <link rel="stylesheet" type="text/css" href="css/FormPage.css"/>
+    <!--[if IE]>
+    <script src="lib/html5.js"></script>
+    <![endif]-->
+    <script src="js/PersonalInfoCheck.js"></script>
+</head>
+<body onload="check_personal_info();">
+<div class="container">
+    <div id="MainPage" class="MainPage">
+        <canvas id="BackGroundAnimation"></canvas>
+        <div class="main_box" style="top:44%">
+            <h1 class="title">Personal Information</h1>
+            <form action="PersonalInfo.php" method="post">
+                <label class="text_label" for="Name" style="top:105px">姓名</label>
+                <div class="form_element text_part">
+                    <img src="img/logo_logname.svg" class="icon">
+                    <input class="text_area" type="text" placeholder="Name"
+                           name="Name" id="Name">
+                </div>
+                <label class="text_label" for="StudentID" style="top:189px">学号</label>
+                <div class="form_element text_part">
+                    <img src="img/logo_logname.svg" class="icon">
+                    <input class="text_area" type="text" placeholder="Student ID"
+                           name="StudentID" id="StudentID">
+                </div>
+                <label class="text_label" for="VPNPassword" style="top:273px">校园VPN密码</label>
+                <div class="form_element text_part">
+                    <img src="img/logo_logpass.svg" class="icon">
+                    <input class="text_area" type="password" placeholder="Campus VPN Password"
+                           name="VPNPassword" id="VPNPassword">
+                </div>
+                <label class="text_label" for="RegistryDepartmentPassword" style="top:357px">教务处密码</label>
+                <div class="form_element text_part">
+                    <img src="img/logo_logpass.svg" class="icon">
+                    <input class="text_area" type="password" placeholder="Registry Department Password"
+                           name="RegistryDepartmentPassword" id="RegistryDepartmentPassword">
+                </div>
+                <input type='submit' class='form_element button_part' value="Submit" style="display: none"
+                       id="submit_button">
+                <input type="button" class='form_element button_part' value="Delete" style="display: none"
+                        id="delete_button" onclick="delete_personalinfo()">
+            </form>
+        </div>
+    </div>
+</div><!-- /container -->
+<script src="js/isMobileJudge.js"></script>
+<script src="lib/TweenLite.min.js"></script>
+<script src="lib/EasePack.min.js"></script>
+<script src="lib/rAF.js"></script>
+<script src="lib/BackGroundAnimation.js"></script>
+</body>
+</html>

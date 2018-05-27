@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TheCalendars-register</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <!--必要样式-->
+    <link rel="stylesheet" type="text/css" href="css/FormPage.css"/>
+    <!--[if IE]>
+    <script src="lib/html5.js"></script>
+    <![endif]-->
+    <script src="js/RegisterCheck.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="MainPage" id="MainPage">
+        <canvas id="BackGroundAnimation"></canvas>
+        <div class="main_box">
+            <h1 class="title">The Calendars</h1>
+            <form action="register.php" method="post">
+                <div class="form_element text_part">
+                    <img src="img/logo_logname.svg" class="icon">
+                    <input class="text_area"  type="text" placeholder="User Name"
+                           name="logname" id="logname" onkeyup="check_logname()">
+                    <img src="img/logo_check_failed.svg" class="icon check_icon"
+                         id="logname_confirm_icon">
+                </div>
+                <div class="form_element text_part">
+                    <img src="img/logo_logpass.svg" class="icon">
+                    <input class="text_area"  type="password" placeholder="Password"
+                           name="logpass" id="logpass">
+                </div>
+                <div class="form_element text_part">
+                    <img src="img/logo_logpass.svg" class="icon">
+                    <input class="text_area" type="password" placeholder="Confirm Password"
+                           name="confirmlogpass" id="confirmlogpass" onkeyup="check_confirmlogpass()">
+                    <img src="img/logo_check_failed.svg" class="icon check_icon"
+                         id="logpass_confirm_icon">
+                </div>
+                <input type='submit' class="form_element button_part" value="Register"
+                id="submit_button">
+            </form>
+        </div>
+    </div>
+</div><!-- /container -->
+<script src="js/isMobileJudge.js"></script>
+<script src="lib/TweenLite.min.js"></script>
+<script src="lib/EasePack.min.js"></script>
+<script src="lib/rAF.js"></script>
+<script src="lib/BackGroundAnimation.js"></script>
+</body>
+</html>

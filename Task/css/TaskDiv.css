@@ -1,0 +1,104 @@
+input[type="text"]
+{
+    background: rgba(255, 255, 255, 0.3);
+!important;
+}
+
+.task-div
+{
+    overflow: hidden;
+    font-size: 20px;
+    width: 99%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 14px;
+    padding: 0.5%;
+}
+
+.task-head
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.task-title
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.button-set
+{
+    display: inline;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.opera-button
+{
+    display: inline;
+    width: 80px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.delete-button
+{
+    background: #CC3300;
+}
+
+.delete-button:hover
+{
+    background: rgb(187, 0, 0);
+}
+
+.task-form
+{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.input-title
+{
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.input-body
+{
+    width: 88%;
+    height: auto;
+    text-align: center;
+    padding: 5px 5%;
+    border-radius: 20px;
+}
+
+.task-name, .task-descript, .ddl
+{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.task-descript
+{
+    font-size: 15px;
+    font-family: "microsoft yahei", Helvetica, Tahoma, Arial, "Microsoft jhengHei", sans-serif;
+}
+
+.task-descript
+{
+    height: 50px;
+    color: white;
+}

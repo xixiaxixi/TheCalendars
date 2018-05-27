@@ -1,0 +1,23 @@
+</div>
+</div>
+</div><!-- /container -->
+<!-- Swiper JS -->
+<script src="../lib/swiper-4.2.2/dist/js/swiper.min.js"></script>
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 'auto',
+        freeMode: true,
+        scrollbar: {
+            el: '.swiper-scrollbar'
+        },
+        mousewheel: true,
+        observer:true,//修改swiper自己或子元素时，自动初始化swiper
+        observeParents:true//修改swiper的父元素时，自动初始化swiper
+    });
+</script>
+<?php echo "$script"; ?>
+</body>
+</html>
+
