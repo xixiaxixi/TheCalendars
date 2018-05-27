@@ -1,0 +1,117 @@
+#input_add_richen {
+    border-radius: 20px;
+    background: hsla(230,100%, 15%, 0.3);
+    width: 100%;
+    margin-top: 10px;
+    padding: 17px 0 19px;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.coursetable {
+    margin-top: 10px;
+    color: #000000;
+    border-color: rgba(0,0,0,0.3);
+    /*border: 0px;*/
+
+}
+.coursetable th{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.3);
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+}
+.coursetable td{
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.3);
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+#input_load_course{
+    border-radius: 20px;
+    background: hsla(230,100%, 15%, 0.3);
+    margin-top: 10px;
+    padding: 17px 0 19px;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#input_load_course span {
+    font-size: 16px;
+}
+#input_load_course input {
+    background: rgb(184, 201, 222);
+    border-radius: 4px;
+    color: black;
+}
+
+.i33 {
+    width: 33%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#btn_load_course, #btn_insert_richen {
+    /*height: 22.5px;*/
+    border-radius: 20px;
+    /*background: rgba(0, 255, 10, 0.3);*/
+    background: #2d9eff;
+    width: 33%;
+    padding: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.event_block {
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px 0 5px;
+}
+
+.event_block>h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.event_block>p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.hor_menu {
+    display: flex;
+    display: -webkit-flex;
+    justify-items: right;
+    justify-content: space-evenly;
+}
+
+.hor_menu>.hor_menu_item {
+    border-radius: 20px;
+    /*background: hsla(120,100%,75%,0.5);*/
+    background: #2d9eff;
+    flex-grow: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.input-type
+{
+    margin-top: 5px;
+    color: #000000;
+    width: 150px;
+    height: 20px;
+    border-radius: 4px;
+}
+
